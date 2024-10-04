@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({ 
-  origin: 'http://localhost:5173', // Allow only your frontend's URL
+  origin: 'https://prebooking.onrender.com', // Allow only your frontend's URL
   methods: ['GET', 'POST', 'OPTIONS'], // Ensure OPTIONS is allowed for preflight checks
   allowedHeaders: ['Content-Type', 'Authorization'], // Allow headers if needed
 }));
